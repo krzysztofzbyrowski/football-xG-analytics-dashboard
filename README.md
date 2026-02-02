@@ -5,6 +5,8 @@ This project implements a robust **End-to-End (E2E) Data Pipeline** designed to 
 
 The core objective of this system is to bridge the gap between **traditional match statistics** (goals, corners, cards) and **advanced metrics** (Expected Goals - xG). By integrating these two distinct datasets, the pipeline enables deeper performance analysis, allowing for the identification of team overperformance and underperformance trends.
 
+![Database Preview](preview.png)
+
 ## 🏗️ Data Architecture
 
 The system aggregates data from two independent sources, requiring complex entity mapping and data normalization:
