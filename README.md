@@ -42,6 +42,9 @@ The system aggregates data from two independent sources, requiring complex entit
     git clone [https://github.com/YOUR_USERNAME/football-data-pipeline.git](https://github.com/YOUR_USERNAME/football-data-pipeline.git)
     cd football-data-pipeline
     ```
+**Prerequisites:**
+* Python 3.11+
+* **Google Chrome** browser installed (required for Selenium scraping).
 
 2.  **Install dependencies:**
     ```bash
