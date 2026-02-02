@@ -60,5 +60,12 @@ Once the database is built, analysts can run queries to find statistical anomali
 * Defensive efficiency analysis (Goals Conceded vs. xGA).
 * Home vs. Away performance splits.
 
+4.  **Automated Scheduling (Optional):**
+    To run the pipeline automatically (e.g., weekly), utilize the provided batch script `run_pipeline.bat`.
+    * Open **Windows Task Scheduler**.
+    * Create a Basic Task.
+    * Set the trigger to **Weekly**.
+    * Action: **Start a program** -> select `run_pipeline.bat`.
+
 ---
 *Author: Krzysztof Zbyrowski*
