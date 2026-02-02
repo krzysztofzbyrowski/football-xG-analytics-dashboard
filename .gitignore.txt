@@ -1,0 +1,16 @@
+# Ignoruj dane (pliki są za duże i zmieniają się zbyt często)
+data/
+*.csv
+*.db
+*.sqlite
+
+# Ignoruj pliki systemowe i tymczasowe Pythona
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Ignoruj wirtualne środowiska (jeśli używasz)
+venv/
+env/
