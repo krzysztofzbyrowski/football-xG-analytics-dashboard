@@ -54,18 +54,18 @@ The system aggregates data from two independent sources, requiring complex entit
     * *Step 2 (Scrape xG):* `python src/scraper/xg_scraper.py`
     * *Step 3 (ETL & Merge):* `python src/database/data_loader.py`
 
-## 📊 Sample Insights
-Once the database is built, analysts can run queries to find statistical anomalies, such as:
-* Teams with high xG but low actual goal count (Underperformers).
-* Defensive efficiency analysis (Goals Conceded vs. xGA).
-* Home vs. Away performance splits.
-
 4.  **Automated Scheduling (Optional):**
     To run the pipeline automatically (e.g., weekly), utilize the provided batch script `run_pipeline.bat`.
     * Open **Windows Task Scheduler**.
     * Create a Basic Task.
     * Set the trigger to **Weekly**.
     * Action: **Start a program** -> select `run_pipeline.bat`.
+
+## 📊 Sample Insights
+Once the database is built, analysts can run queries to find statistical anomalies, such as:
+* Teams with high xG but low actual goal count (Underperformers).
+* Defensive efficiency analysis (Goals Conceded vs. xGA).
+* Home vs. Away performance splits.
 
 ---
 *Author: Krzysztof Zbyrowski*
